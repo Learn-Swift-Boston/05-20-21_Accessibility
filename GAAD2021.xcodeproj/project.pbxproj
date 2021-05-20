@@ -11,6 +11,8 @@
 		6DC06DC62656F12B00231574 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC06DC52656F12B00231574 /* ContentView.swift */; };
 		6DC06DC82656F13100231574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC06DC72656F13100231574 /* Assets.xcassets */; };
 		6DC06DCB2656F13100231574 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC06DCA2656F13100231574 /* Preview Assets.xcassets */; };
+		6DC06DD32657019D00231574 /* EmojiPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC06DD22657019D00231574 /* EmojiPicker.swift */; };
+		6DC06DD5265701ED00231574 /* EmojiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC06DD4265701ED00231574 /* EmojiCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		6DC06DC72656F13100231574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DC06DCA2656F13100231574 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6DC06DCC2656F13100231574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC06DD22657019D00231574 /* EmojiPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPicker.swift; sourceTree = "<group>"; };
+		6DC06DD4265701ED00231574 /* EmojiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				6DC06DC32656F12B00231574 /* GAAD2021App.swift */,
 				6DC06DC52656F12B00231574 /* ContentView.swift */,
+				6DC06DD4265701ED00231574 /* EmojiCell.swift */,
+				6DC06DD22657019D00231574 /* EmojiPicker.swift */,
 				6DC06DC72656F13100231574 /* Assets.xcassets */,
 				6DC06DCC2656F13100231574 /* Info.plist */,
 				6DC06DC92656F13100231574 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DC06DC62656F12B00231574 /* ContentView.swift in Sources */,
+				6DC06DD32657019D00231574 /* EmojiPicker.swift in Sources */,
+				6DC06DD5265701ED00231574 /* EmojiCell.swift in Sources */,
 				6DC06DC42656F12B00231574 /* GAAD2021App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

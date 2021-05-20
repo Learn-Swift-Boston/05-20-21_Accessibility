@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+
+        NavigationView {
+            VStack(alignment: .leading) {
+                Text("Pick Your Favorite Emoji").bold()
+                EmojiPicker()
+
+            }.padding(8)
+            .navigationTitle("Emoji Picker")
+        }
     }
 }
 
